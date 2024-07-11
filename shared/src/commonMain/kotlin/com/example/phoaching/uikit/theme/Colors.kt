@@ -1,0 +1,56 @@
+package com.example.phoaching.theme
+
+import androidx.compose.ui.graphics.Color
+
+class UIKitColors(
+    val cursorColor: Color,
+    val buttonBackgroundColor: Color,
+    val background: Color,
+    val buttonBorderColor: Color,
+    val textColor: Color,
+    val lightTextColor: Color,
+    val borderTextFieldColor: Color,
+    val placeholderColor: Color,
+    val fieldTextColor: Color,
+    val fieldStrokeErrorColor: Color,
+    val fieldBGErrorColor: Color,
+    val textErrorColor: Color,
+    val fieldStrokeFocusColor: Color,
+    val bottomBarColor: Color,
+    val dividerColor: Color,
+    val textGreyColor: Color,
+    val white: Color,
+    val bgDefault5: Color,
+    val bgDefault3: Color,
+    val bgDefault2: Color,
+    val textDisabledColor: Color,
+    val buttonDisabledColor: Color,
+    val buttonStrokeDisabledColor: Color,
+)
+
+fun uiKitColors() = UIKitColors(
+    white = Color.White,
+    cursorColor = Color.Black,
+    buttonBackgroundColor = Color(0xFF1A92C0),
+    background = Color.White,
+    buttonBorderColor = Color(0xFF1A92C0),
+    textColor = Color(0xFF3A4752),
+    lightTextColor = Color.White,
+    borderTextFieldColor = Color(0xFFD9D9D9),
+    placeholderColor = Color(0xFFAFAFAF),
+    fieldTextColor = Color(0xFF4F5B64),
+    fieldStrokeErrorColor = Color(0xFFFFD8D8),
+    fieldBGErrorColor = Color(0xFFFFF5F5),
+    textErrorColor = Color(0xFFFB97A3),
+    fieldStrokeFocusColor = Color(0xFF1A92C0),
+    bottomBarColor = Color(0xFF1A92C0),
+    dividerColor = Color(0xFF1A92C0),
+    textGreyColor = Color(0xFFAFAFAF),
+    bgDefault5 = Color(0xFF8698A4),
+    bgDefault3 = Color(0xFF8CC8DF),
+    bgDefault2 = Color(0xFF47A7CC),
+    textDisabledColor = Color(0xFF4F5B64),
+    buttonDisabledColor = Color(0xFFD9D9D9),
+    buttonStrokeDisabledColor = Color(0xFF4F5B64),
+)
+

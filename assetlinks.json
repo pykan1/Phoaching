@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.phoaching",
+    "sha256_cert_fingerprints":
+    ["03:37:D2:D6:E6:54:90:ED:91:F4:37:87:EB:C2:08:A7:F1:14:C5:34:33:7C:82:6E:CD:3C:40:A3:84:F9:92:46"]
+  }
+}]
